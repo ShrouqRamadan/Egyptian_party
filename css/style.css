@@ -1,0 +1,163 @@
+*{
+    box-sizing:border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    overflow: auto;
+}
+/* header */
+header{
+    /* height: 90vh;
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-size: cover;
+    background-position: center; */
+}
+.cover{
+    height: 90vh;
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.overlay{
+    height: 100%;
+    background-color: #801c1fa8;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.overlay h1{
+    font-size: 55px;
+    line-height: 66px;
+    font-weight: 500;
+}
+
+/* aside */
+.aside-bar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -300px;
+    /* right: 120%; */
+    background-color: #414658;
+    z-index: 111111111111111;
+    width: 200px;
+
+}
+
+.aside-bar ul li{
+    list-style-type: none;
+    font-size: 30px;
+}
+.aside-bar ul li:hover{
+   color: #D62E33;
+}
+.aside-bar i:hover{
+   color: #D62E33;
+}
+
+.caption {
+    height: 100%;
+}
+.bar{
+    cursor: pointer;
+}
+
+/* JOIN US */
+.join-header{
+   color: #444444;
+   font-size: 35px;
+   line-height: 38.5px;
+   font-family: 'Montserrat', sans-serif;
+font-weight: 900;
+}
+
+.join-header2{
+    color: #444444;
+    font-size: 18px;
+    line-height: 19.8px;
+    font-family: 'Montserrat', sans-serif;
+ font-weight: 900;
+}
+.join-us p{
+/* font-size: 16px; */
+font-weight: 500;
+}
+
+.join-icon{
+    width: 40px;
+    height: 40px;
+    border: #6c757d 1px solid;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join-icon i{
+    color:#6c757d ;
+
+}
+
+.join-icon:hover i{
+    color:white ;
+}
+
+.join-icon:hover{
+background-color: #D62E33;
+border: 0;
+}
+
+.text-area{
+    height: 200px;
+}
+
+.char{
+    font-size: 20px;
+}
+
+/* singer */
+.singer{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    background-color:#CCCCCC;
+    color: black;
+
+
+}
+.singer h4{
+font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+background-color: #E68285;
+color: white;
+cursor: pointer;
+
+
+}
+
+/* time */
+
+.time{
+    /* height: 50vh; */
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+
+.item{
+border: solid 1px;
+}
+
+.item  p{
+    font-size: 25px;
+}
+
+
+.singer p{
+    display: none;
+}
+

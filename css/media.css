@@ -1,0 +1,16 @@
+@media only screen and (max-width: 600px) {
+    .aside-bar{
+        width: 40%;
+    }
+  }
+
+@media only screen and (min-width: 600px )and (max-width: 768px) {
+    .aside-bar{
+        width: 30%;
+    }
+  }
+@media only screen and (min-width: 768px )and (max-width: 992px) {
+    .aside-bar{
+        width: 30%;
+    }
+  }
